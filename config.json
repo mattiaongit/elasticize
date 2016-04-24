@@ -1,0 +1,7 @@
+{
+	"MONGO_DATABASE": "source_mongo_db",
+	"MONGO_COLLECTION": "source_mongo_collection",
+	"ES_URL": "http://localhost:9200",
+	"ES_INDEX": "destination_index",
+	"ES_TYPE" : "destination_type"
+}
