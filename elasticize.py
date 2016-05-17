@@ -1,7 +1,7 @@
 import requests, pymongo, json, datetime
 config = json.loads(open('config.json', 'r').read())
 
-document_url = '{0}/{1}/{2}/'.format(config['ES_INDEX'],config['ES_INDEX'],config['ES_TYPE'])
+document_url = '{0}/{1}/{2}/'.format(config['ES_URL'],config['ES_INDEX'],config['ES_TYPE'])
 
 connection = pymongo.Connection()
 db = connection[config['MONGO_DATABASE']]
