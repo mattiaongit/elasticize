@@ -2,7 +2,6 @@ import requests
 import pymongo
 from pymongo import MongoClient
 import json
-from bson import ObjectId
 from datetime import datetime
 from elasticsearch import Elasticsearch
 from elasticsearch import helpers
@@ -15,7 +14,6 @@ es = Elasticsearch(config['ES_URL'])
 def outputJSON(obj):
     if isinstance(obj, datetime):
         return obj.strftime('%Y-%m-%dT%H:%M:%S')
-
 
 collection = db[config['MONGO_COLLECTION']].find({})
 documents = []
