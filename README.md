@@ -30,8 +30,8 @@ python elasticize.py
 Dependencies
 ------------
 
-Elasticize is written in Python, so you'll need to have python installed.
-Other few dependecis are needed as **Requests**, an http request python library to send request to ES and **Pymongo** to fetch data from a MongoDB database.
+Elasticize is written in Python. So, you need to install Python on your system if not already installed.
+Other few dependencies are needed as **Requests**, an http request python library to send request to ES and **Pymongo** to fetch data from a MongoDB database.
 
 Here's a list of the dependecies needed:
 
